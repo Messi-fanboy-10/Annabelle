@@ -17,7 +17,7 @@ async def gban(Annabelle, message):
              else:
                  reason = None
           G_BANS[message.reply_to_message.from_user.id] = reason if reason is not None else None
-          message.edit(GBAN_TXT.format(message.reply_to_message.from_user.mention, None if reason is None else reason))
+          message.edit(GBAN_TXT.format(message.reply_to_message.from_user.mention, None if reason is None else reason)),
 
 @Annabelle.on_message(filters.new_chat_members & filters.group)
 async def gban_kodk(Annabelle, message):
