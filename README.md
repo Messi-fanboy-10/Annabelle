@@ -5,4 +5,5 @@
 A powerfull telegram userbot made with python using the pyrogram library
 
 
-[!Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/Messi-fanboy-10/Annabelle.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Messi-fanboy-10/Annabelle.git)
+
